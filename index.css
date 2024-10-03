@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.case{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.n-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    a{
+        font-size: 30px;
+        color: #3A5F56;
+        text-decoration: none;
+    }
+}
+.icons{
+    font-size: 30px;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: max-content;
+    background-color: gainsboro;
+    padding: 60px 0;
+}
+.h-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h-left{
+    h1{
+        font-size: 60px;
+        color: #3A5F56;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        font-style: 25px;
+        color: #292C32;
+        padding: 60px 0;
+    }
+    button{
+        width: 225px;
+        height: 65px;
+        background-color: #292C32 ;
+        font-size: 16px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
+.txt{
+    text-align: center;
+    h1{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 60px 0;
+    }
+    p{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    
+    img{
+        width: 15%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    h1{
+        font-size: 32px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 0;
+        color: #3A5F56;
+        padding-left: 3%;
+    }
+    p{
+font-size: 16px;
+color: #292C32;
+font-family: 'Times New Roman', Times, serif;
+padding-left: 3%;
+    }
+    b{
+         font-size: 17px;
+         color: #3A5F56;
+         margin-bottom: 3%;
+         padding: 5% ;
+    }
+}
+.card{
+    width: 100%;
+    background-color: #F4F3F0;
+    border-radius: 15px;
+    margin: 5% 0;
+}
+
+@media (max-width: 1216px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 858px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 455px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.rxr{
+    text-align: center;
+    h1{
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 60px 0;
+        color: #DB343B;
+    }
+    p{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.paper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+    img{
+        width: 100%;
+       
+        margin-top: 3%;
+    }
+    h1{
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 0;
+        color: #3A5F56;
+        padding-left: 3%;
+        text-align: center;
+    }
+    p{
+font-size: 16px;
+color: #292C32;
+font-family: 'Times New Roman', Times, serif;
+padding-left: 3%;
+text-align: center;
+    }
+    b{
+         font-size: 17px;
+         color: #3A5F56;
+         margin-bottom: 3%;
+         padding: 5% ;
+    }
+   
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    button{
+        width: 96px;
+        height: 24px;
+
+        font-size: 12px;
+        font-weight: 400;
+     }
+}
+@media (max-width: 1216px) {
+    .paper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 858px) {
+    .paper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .paper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
